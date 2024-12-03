@@ -112,6 +112,23 @@ Next we create a new Virtual Machine; Choose the Azure subscription you want to 
   <img src="https://github.com/NgethaWachira/Microsoft-Virtual-machine/blob/086806a6f67daedc0e9f569fd883d3761676dee6/Images/this%20is%20where%20it%20will%20show%20if%20it%20deployed%20successfully.PNG" width="318" />
 </p>
 
+- We then configure device groups, for better management, policy application, and other security configurations in Microsoft Defender for Endpoint through the
+  Microsoft 365 Admin Center. The device group will contain my KE_CL1 virtual machine. Go to Microsoft 365 Admin Center, Navigate to Security (opens Windows
+  Defender), Go to Settings > Endpoints, Under Endpoints, select Permissions, Go to Device Groups and add a new device group.
+
+<p align="center">
+  <img src="https://github.com/NgethaWachira/Microsoft-Virtual-machine/blob/6b471e4b1f23a0c7ad9d1cf02e28cc494c2c4ecd/Images/Adding%20device%20groups1.PNG" width="300" />
+  <img src="https://github.com/NgethaWachira/Microsoft-Virtual-machine/blob/6b471e4b1f23a0c7ad9d1cf02e28cc494c2c4ecd/Images/Group%20created.PNG" width="300" />
+</p>
+
+- We then add the device to the group that we created, Once you are on the device's page, we click the Manage groups on the device details page and a list of available device groups will appear, including the group we previously created. Select the group you want to add the device to, then save or apply the changes. You should see your device listed under the group you added it to.
+
+<p align="center">
+  <img src="https://github.com/NgethaWachira/Microsoft-Virtual-machine/blob/61bef4e21267e2cb13e82eaaf3b6608ea135513c/Images/Group%20created%20and%20device%20added%20to%20the%20KE%20device%20group.PNG" width="700" />
+</p>
+
+
+
 
 
 
